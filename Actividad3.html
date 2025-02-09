@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form action="grabar.php" name="datos">
+        contraseña: <input type="password" name="clave" /> <br>
+    nombre: <input type="text" name="nombre" /> <br>
+    comentario: <br> <textarea name="comentarios" rows="6" cols="15"> </textarea>  <br />
+    <input type="checkbox" value="Licencia Vigente" name="licencia" />
+    Licencia Vigente
+    <br />
+    Vigencia <input type="radio" name="Vigencia" value="1" /> 1 año
+    <input type="radio" name="Vigencia" value="1" /> 2 años
+    <input type="radio" name="Vigencia" value="1" /> 3 años
+    <input type="radio" name="Vigencia" value="1" /> 4 años <br />
+    <input type="button" onclick="guardar();" value="guardar" />
+
+    <input type="submit" value="Guardar y salir" />
+    <input type="submit" value="Salir sin guardar" />
+    <input type="submit" value="Salir" />
+    </form>
+</body>
+</html>
